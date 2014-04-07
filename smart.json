@@ -4,5 +4,8 @@
   "homepage": "https://github.com/rmachielse/meteor-accounts-tudelft",
   "author": "Richard Machielse",
   "version": "0.0.1",
-  "git": "https://github.com/rmachielse/meteor-accounts-tudelft.git"
+  "git": "https://github.com/rmachielse/meteor-accounts-tudelft.git",
+  "packages": {
+    "tudelft": "0.0.1"
+  }
 }
