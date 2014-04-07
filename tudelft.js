@@ -1,5 +1,9 @@
 Accounts.oauth.registerService('tudelft');
 
+if (!Accounts.tudelft) {
+  Accounts.tudelft = {};
+}
+
 if (Meteor.isClient) {
   Meteor.loginWithTudelft = function(options, callback) {
     // support a callback without options
