@@ -3,9 +3,9 @@
   "description": "TU Delft API and OAuth login service for Meteor Accounts",
   "homepage": "https://github.com/rmachielse/meteor-accounts-tudelft",
   "author": "Richard Machielse",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "git": "https://github.com/rmachielse/meteor-accounts-tudelft.git",
   "packages": {
-    "tudelft": "0.0.2"
+    "tudelft": "0.0.3"
   }
 }
