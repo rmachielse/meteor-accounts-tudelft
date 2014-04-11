@@ -18,6 +18,6 @@ if (Meteor.isClient) {
 } else {
   Accounts.addAutopublishFields({
     forLoggedInUser: ['services.tudelft'],
-    forOtherUsers: ['services.tudelft.student_id']
+    forOtherUsers: ['services.tudelft.id']
   });
 }
