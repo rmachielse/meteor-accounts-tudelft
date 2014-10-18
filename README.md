@@ -6,7 +6,7 @@ TU Delft OAuth login service for Meteor Accounts
 ## Installation
 
 ```
-mrt add accounts-tudelft
+meteor add rmachielse:accounts-tudelft
 ```
 
 ## Usage
