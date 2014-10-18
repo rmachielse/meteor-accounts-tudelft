@@ -1,6 +1,6 @@
 Package.describe({
   summary: "TU Delft API and OAuth login service for Meteor Accounts",
-  version: "0.0.6",
+  version: "0.0.7",
   git: "https://github.com/rmachielse/meteor-accounts-tudelft.git"
 });
 
@@ -10,7 +10,7 @@ Package.onUse(function(api) {
   // Export Accounts (etc) to packages using this one.
   api.imply('accounts-base', ['client', 'server']);
   api.use('accounts-oauth', ['client', 'server']);
-  api.use('tudelft', ['client', 'server']);
+  api.use('rmachielse:tudelft@0.0.7', ['client', 'server']);
 
   api.addFiles('tudelft_login_button.css', 'client');
   
